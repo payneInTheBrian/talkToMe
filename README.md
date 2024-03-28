@@ -1,3 +1,25 @@
+# Talk To Me
+
+
+# Live @
+
+https://dication-467cfc42a535.herokuapp.com/
+
+---
+
+# Objectives
+
+- It's an app that allows you to dictate from speech to your device. You can also translate to other languages if you feel so inclined.
+
+---
+
+# Who is this for? 
+
+- Everyone
+
+---
+
+
 # Install
 
 `npm install`
