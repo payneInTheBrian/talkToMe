@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const PORT = 2121;
 
 require("dotenv").config({ path: "./config/.env" });
 
@@ -65,4 +66,7 @@ app.post("/textToSpeech", async (req, res) => {
   }
 });
 
-app.listen(process.env.PORT || 8000);
+
+app.listen(process.env.PORT || PORT, () => {
+  console.log(`The server is now running on port ${PORT}`)
+})
